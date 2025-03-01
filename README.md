@@ -1,11 +1,12 @@
 # Mouseflow GTM Tag Template (UNOFFICIAL)
 
-An **unofficial** Google Tag Manager tag template for **Mouseflow**. This template allows you to easily integrate Mouseflow tracking, apply tags, identify users, customize sessions, track custom user friction, monitor 404 errors, and measure form interactions.
+An **unofficial** Google Tag Manager tag template for **Mouseflow**. This template allows you to easily integrate Mouseflow tracking, install the tracking script, apply tags, identify users, customize sessions, track custom user friction, monitor 404 errors, and measure form interactions.
 
 Developed by **Jude Nwachukwu Onyejekwe** from **DumbData**, a measurement resource hub. Learn more at [DumbData](https://dumbdata.co).
 
 ## Features
 This template supports the following Mouseflow tracking features:
+- **Install Tracking Code**: Automatically installs the Mouseflow tracking script.
 - **Tags**: Apply Mouseflow tags to categorize sessions.
 - **Custom Variables**: Define and store custom session variables.
 - **User Identification**: Identify users by unique identifiers.
@@ -18,6 +19,7 @@ This template supports the following Mouseflow tracking features:
 ### 1. **Select the Tag Type**
 Choose a tag type in the **Tag Configuration** section of GTM:
 
+- **Install Mouseflow Tracking** → Installs the Mouseflow tracking script.
 - **Tags** → Assigns Mouseflow tags to sessions.
 - **Custom Variable** → Stores custom session-level variables.
 - **User Identification** → Identifies users with a unique ID.
@@ -27,6 +29,9 @@ Choose a tag type in the **Tag Configuration** section of GTM:
 
 ### 2. **Configure the Selected Tag Type**
 Each tag type has specific configuration fields:
+
+#### **Install Mouseflow Tracking**
+- **Enter The Mouseflow Site ID** → Provide the unique site ID associated with your Mouseflow project.
 
 #### **Tags**
 - **Insert Tag Value** → Enter the tag name to categorize user sessions in Mouseflow.
@@ -64,4 +69,3 @@ This template was developed by **Jude Nwachukwu Onyejekwe** from **DumbData**, a
 ---
 
 **Note:** This is an **unofficial** GTM template and is not affiliated with Mouseflow.
-
