@@ -1,0 +1,6 @@
+---
+homepage: https://dumbdata.co/
+documentation: https://github.com/Jude-Nwachukwu/mouseflow-advanced-gtm-tag-template
+versions:
+  - sha: a299f9cf08a6e66981bb963a3d82e75dfe9f123d
+    changeNotes: Initial release.
