@@ -2,5 +2,10 @@
 homepage: https://dumbdata.co/
 documentation: https://github.com/Jude-Nwachukwu/mouseflow-advanced-gtm-tag-template
 versions:
+# LATEST VERSION
+  - sha: 27cc1260f92cfc328a3edd57255e06f95ee45045
+    changeNotes: Updated the code to follow the best practice of using encodeUri() for the user-defined parameters to build a URL.
+
+#INITIAL VERSION
   - sha: a299f9cf08a6e66981bb963a3d82e75dfe9f123d
     changeNotes: Initial release.
