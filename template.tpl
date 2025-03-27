@@ -288,6 +288,7 @@ const createQueue = require('createQueue');
 const callInWindow = require('callInWindow');
 const injectScript = require('injectScript');
 const queryPermission = require('queryPermission');
+const encodeUri = require('encodeUri');
 
 const tagType = data.mfTagType;
 const _mfq = createQueue('_mfq'); // Create the queue function
@@ -297,7 +298,7 @@ const pageNotFound = callInWindow('mouseflow.pageNotFound');
 switch (tagType) {
   case 'mfTrackingCode':
     const siteId = makeString(data.mfSiteID);
-    const scriptUrl = "https://cdn.mouseflow.com/projects/" + siteId + ".js";
+    const scriptUrl = "https://cdn.mouseflow.com/projects/" + encodeUri(siteId) + ".js";
 
     const onSuccess = function() {
       logToConsole("Mouseflow script loaded successfully.");
